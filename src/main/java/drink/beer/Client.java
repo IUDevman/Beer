@@ -1,5 +1,11 @@
+/*
+ * This file is licensed under the GNU Lesser General Public License v2.1
+ * Please review the license at https://github.com/IUDevman/Beer/blob/main/LICENSE
+ */
+
 package drink.beer;
 
+import drink.beer.misc.event.EventHandler;
 import net.fabricmc.api.ClientModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,6 +28,8 @@ public final class Client implements ClientModInitializer {
 
     public final Logger LOGGER = LogManager.getLogger(this.MOD_NAME);
 
+    public EventHandler EVENT_HANDLER;
+
     @Override
     public void onInitializeClient() {
         long startTime = System.currentTimeMillis();
@@ -34,6 +42,6 @@ public final class Client implements ClientModInitializer {
     }
 
     private void loadClient() {
-
+        this.EVENT_HANDLER = new EventHandler();
     }
 }

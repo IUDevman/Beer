@@ -11,7 +11,7 @@
     "homepage": "https://github.com/IUDevman",
     "sources": "https://github.com/IUDevman/Beer"
   },
-  "license": "ARR",
+  "license": "LGPL-2.1",
   "environment": "*",
   "entrypoints": {
     "client": [
