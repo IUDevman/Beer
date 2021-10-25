@@ -6,6 +6,8 @@
   "mixinPriority": 2130,
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ClientBrandRetrieverMixin",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
