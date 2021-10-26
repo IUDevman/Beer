@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "beer",
   "version": "${version}",
-  "name": "Tensor",
+  "name": "Beer",
   "description": "Utility mod for 1.17.1 Anarchy Servers using the Fabric loader.",
   "authors": [
     "Go_Hoosiers"
@@ -11,7 +11,7 @@
     "homepage": "https://github.com/IUDevman",
     "sources": "https://github.com/IUDevman/Beer"
   },
-  "license": "LGPL-2.1",
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "client": [
